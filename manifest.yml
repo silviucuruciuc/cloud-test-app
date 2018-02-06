@@ -1,0 +1,7 @@
+---
+applications:
+- name: test2-app
+  memory: 32M
+  disk_quota: 256M
+  random-route: true
+  buildpack: "https://github.com/cloudfoundry/java-buildpack"
